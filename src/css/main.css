@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Kalam:wght@300;400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --main-color: #4b33a8;
+  --white-color: #ececec;
+  --gray-color: #e2e2e2;
+  --red-color: #961818;
+
+
+  --body-font: 'Montserrat', sans-serif;
+  --title-font: 'Handlee', cursive;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--body-font);
+}
+
+ul{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+}
