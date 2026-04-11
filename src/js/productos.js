@@ -1,4 +1,4 @@
-const productos = [
+export const productos = [
   // Figuras
   {
     id: "figura-01",
@@ -105,7 +105,7 @@ const productos = [
   {
     id: "accesorio-01",
     titulo: "Accesorio 01",
-    imagen: "./src/img/accesorios/1.jpeg",
+    imagen: "./src/img/accesorios/1.jpg",
     categoria: {
       nombre: "Accesorios",
       id: "accesorios",
@@ -115,7 +115,7 @@ const productos = [
   {
     id: "accesorio-02",
     titulo: "Accesorio 02",
-    imagen: "./src/img/accesorios/2.jpeg",
+    imagen: "./src/img/accesorios/2.webp",
     categoria: {
       nombre: "Accesorios",
       id: "accesorios",
@@ -125,7 +125,7 @@ const productos = [
   {
     id: "accesorio-03",
     titulo: "Accesorio 03",
-    imagen: "./src/img/accesorios/3.jpeg",
+    imagen: "./src/img/accesorios/3.webp",
     categoria: {
       nombre: "Accesorios",
       id: "accesorios",
@@ -157,7 +157,7 @@ const productos = [
   {
     id: "remera-01",
     titulo: "Remera 01",
-    imagen: "./src/img/remeras/1.jpeg",
+    imagen: "./src/img/remeras/1.webp",
     categoria: {
       nombre: "Remeras",
       id: "remeras",
@@ -167,7 +167,7 @@ const productos = [
   {
     id: "remera-02",
     titulo: "Remera 02",
-    imagen: "./src/img/remeras/2.jpeg",
+    imagen: "./src/img/remeras/2.webp",
     categoria: {
       nombre: "Remeras",
       id: "remeras",
@@ -177,7 +177,7 @@ const productos = [
   {
     id: "remera-03",
     titulo: "Remera 03",
-    imagen: "./src/img/remeras/3.jpeg",
+    imagen: "./src/img/remeras/3.webp",
     categoria: {
       nombre: "Remeras",
       id: "remeras",
@@ -187,7 +187,7 @@ const productos = [
   {
     id: "remera-04",
     titulo: "Remera 04",
-    imagen: "./src/img/remeras/4.jpeg",
+    imagen: "./src/img/remeras/4.webp",
     categoria: {
       nombre: "Remeras",
       id: "remeras",
@@ -197,7 +197,7 @@ const productos = [
   {
     id: "remera-05",
     titulo: "Remera 05",
-    imagen: "./src/img/remeras/5.jpeg",
+    imagen: "./src/img/remeras/5.webp",
     categoria: {
       nombre: "Remeras",
       id: "remeras",
@@ -207,7 +207,7 @@ const productos = [
   {
     id: "remera-06",
     titulo: "Remera 06",
-    imagen: "./src/img/remeras/6.jpeg",
+    imagen: "./src/img/remeras/6.webp",
     categoria: {
       nombre: "Remeras",
       id: "remeras",
