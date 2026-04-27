@@ -20,7 +20,7 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
     />
     <!--Title-->
-    <title>Anime Shop</title>
+    <title>AraraShop - Tienda Anime</title>
   </head>
   <body>
     <div class="container">
@@ -31,29 +31,29 @@
         <nav>
           <ul class="menu">
             <li>
-              <button class="btn btn-productos active">
+              <button id="todos" class="btn btn-categorias active">
                 <i class="bi bi-arrow-right-short"></i>Todos los Productos
               </button>
             </li>
             <li>
-              <button class="btn btn-figuras">
+              <button id="figuras" class="btn btn-categorias">
                 <i class="bi bi-arrow-right-short"></i> Figuras
               </button>
             </li>
             <li>
-              <button class="btn btn-accesorios">
+              <button id="accesorios" class="btn btn-categorias">
                 <i class="bi bi-arrow-right-short"></i> Accesorios
               </button>
             </li>
             <li>
-              <button class="btn btn-ropas">
+              <button id="remeras" class="btn btn-categorias">
                 <i class="bi bi-arrow-right-short"></i> Ropas
               </button>
             </li>
             <li>
-              <a class="btn btn-carrito " href="/carrito.html"
+              <a class="btn btn-carrito" href="/carrito.html"
                 ><i class="bi bi-bag-fill"></i>Carrito
-                <span class="numero-producto">0</span></a
+                <span id="numero_producto" class="numero-producto">0</span></a
               >
             </li>
           </ul>
@@ -63,9 +63,11 @@
         </footer>
       </aside>
       <main>
-        <h2 class="titulo-principal">Todos los Productos</h2>
+        <h2 id="titulo_principal" class="titulo-principal">
+          Todos los Productos
+        </h2>
         <div id="contenedor_productos" class="contenedor-productos">
-      <!--Se rellena con js-->
+          <!--Se rellena con js-->
         </div>
       </main>
     </div>
